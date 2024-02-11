@@ -20,7 +20,7 @@ function BotCollection ({ addToArmy }){
         });
     }, []);
   
-    const HandleAddToArmy = (bot) => {
+    function HandleAddToArmy (bot){
       addToArmy(bot);
     }
     return(
