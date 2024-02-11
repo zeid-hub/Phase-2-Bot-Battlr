@@ -12,7 +12,7 @@ function App() {
     }
   };
 
-  const removeFromArmy = (botId) => {
+  function removeFromArmy (botId){
     const updatedArmy = army.filter((bot) => bot.id !== botId);
     setArmy(updatedArmy);
   };
