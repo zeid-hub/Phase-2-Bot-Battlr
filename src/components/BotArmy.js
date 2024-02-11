@@ -1,7 +1,7 @@
 import React from "react";
 
 function BotArmy ( {army, removeFromArmy}){
-    const handleDischarge = (bot) => {
+    function handleDischarge (bot){
         removeFromArmy(bot.id);
       };
     
