@@ -5,7 +5,7 @@ function BotArmy ( {army, removeFromArmy}){
         removeFromArmy(bot.id);
       };
     
-      const handleFrontendDischarge = (bot) => {
+      function handleFrontendDischarge (bot){
         removeFromArmy(bot.id);
       };
     
