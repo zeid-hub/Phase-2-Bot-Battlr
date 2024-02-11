@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const [army, setArmy] = useState([]);
   
-  const addToArmy = (bot) => {
+  function addToArmy (bot){
     if (!army.some((b) => b.id === bot.id)) {
       setArmy([...army, bot]);
     }
