@@ -7,9 +7,7 @@ function App() {
   const [army, setArmy] = useState([]);
   
 
-  fetch("http://localhost:3000/bots")
-  .then((res) => res.json())
-  .then((data) => setArmy(data))
+ 
   const addToArmy = (bot) => {
     if (!army.some((b) => b.id === bot.id)) {
       setArmy([...army, bot]);
