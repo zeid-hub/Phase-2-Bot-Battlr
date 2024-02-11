@@ -1,26 +1,31 @@
 .App {
   text-align: center;
-  background-color: rgba(40, 24, 58, 0.555);
-  color: #eb0909; /* Set text color to white */
+  background-color: rgba(40, 24, 58, 0.8);
+  color: #050505; /* Set text color to white */
   padding: 20px; /* Add some padding for better aesthetics */
 }
 
 .container {
- /* background-color: #f0f8ff; /* Set background color to light azure */
+  background-color: #e6f7ff; /* Set background color to a light blue shade */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
-  grid-gap: 6px;
+  grid-gap: 10px; /* Increased grid gap for better separation */
   margin: 20px; /* Add margin for spacing from the edges */
-  border-radius: 10px; /* Add rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  border-radius: 15px; /* Add rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhance the box shadow */
 }
 
 /* Add styling for grid items if needed */
 .container div {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #cce5ff; /* Set a border color close to the background color */
+  border-radius: 8px; /* Slightly rounded corners */
 }
 
-/* You can customize the grid item styling further as needed */
+/* Customize the grid item styling further if needed */
+
+.colour {
+  background-color: #ff6666; /* Set a coral red background color */
+  color: #fff; /* Text color for better contrast */
+}

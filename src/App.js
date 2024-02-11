@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='text-center my-5'>Battle bots</h1>
+      <h1 className='text-center my-5'>BATTLE BOTS</h1>
 
       <div className='container'>
         

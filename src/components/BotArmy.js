@@ -22,7 +22,7 @@ function BotArmy ( {army, removeFromArmy}){
             >
               Discharge
             </button>
-            <button onClick={() => handleFrontendDischarge(bot)}>X</button>
+            <button onClick={() => handleFrontendDischarge(bot)} className="colour">X</button>
           </div>
         ))}
       </div> 
